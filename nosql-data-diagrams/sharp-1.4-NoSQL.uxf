@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>40</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>USER
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>30</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>BIRTHDATE
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>40</y>
+      <w>140</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Has
+m1=1.1
+m2=1.1
+</panel_attributes>
+    <additional_attributes>10.0;30.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>100</y>
+      <w>140</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Has
+m1=1.1
+m2=1.*
+</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>160</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>ROLES
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>50</x>
+      <y>100</y>
+      <w>90</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>Can Have
+m1=1.1
+m2=1.*
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>280</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>DEPENDENTS
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
